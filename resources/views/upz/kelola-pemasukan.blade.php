@@ -39,7 +39,7 @@
                                             @csrf
                                             <div class="col-md-6">
                                                 <label for="validationServer04" class="form-label">Nama Muzaki</label>
-                                                <select class="form-select is-invalid" id="validationServer04"
+                                                <select class="form-select" id="validationServer04"
                                                     aria-describedby="validationServer04Feedback" name="muzaki_id"
                                                     required>
                                                     @foreach ($muzaki as $item)
@@ -62,7 +62,7 @@
                                             <div class="">
                                                 <label for="validationServer04" class="form-label">Metode
                                                     Pembayaran</label>
-                                                <select class="form-select is-invalid" id="validationServer04"
+                                                <select class="form-select" id="validationServer04"
                                                     aria-describedby="validationServer04Feedback"
                                                     name="metode_pembayaran" required>
                                                     <option value="cash">cash</option>

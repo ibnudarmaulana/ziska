@@ -55,7 +55,7 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <label for="validationServer04" class="form-label">Jenis Kelamin</label>
-                                                <select class="form-select is-invalid" id="validationServer04"
+                                                <select class="form-select" id="validationServer04"
                                                     aria-describedby="validationServer04Feedback" name="jk_mustahiq"
                                                     required>
                                                     <option value="laki-laki">laki-laki</option>
@@ -92,7 +92,7 @@
                                             <div class="">
                                                 <label for="validationServer04" class="form-label">Status
                                                     Mustahiq</label>
-                                                <select class="form-select is-invalid" id="validationServer04"
+                                                <select class="form-select" id="validationServer04"
                                                     aria-describedby="validationServer04Feedback" name="status_mustahiq"
                                                     required>
                                                     <option value="menikah">menikah</option>

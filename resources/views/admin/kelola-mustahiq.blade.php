@@ -55,7 +55,7 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <label for="validationServer04" class="form-label">Jenis Kelamin</label>
-                                                <select class="form-select is-invalid" id="validationServer04"
+                                                <select class="form-select" id="validationServer04"
                                                     aria-describedby="validationServer04Feedback" name="jk_mustahiq"
                                                     required>
                                                     <option value="laki-laki">laki-laki</option>
@@ -73,7 +73,7 @@
                                                     Mohon ketik no telp mustahiq
                                                 </div>
                                             </div>
-                                            <div class="col-md-6">
+                                            <div class="col-md-12">
                                                 <label for="validationCustom03" class="form-label">Email</label>
                                                 <input type="email" class="form-control" id="validationCustom03"
                                                     name="email_mustahiq" required>
@@ -92,7 +92,7 @@
                                             <div class="">
                                                 <label for="validationServer04" class="form-label">Status
                                                     Mustahiq</label>
-                                                <select class="form-select is-invalid" id="validationServer04"
+                                                <select class="form-select" id="validationServer04"
                                                     aria-describedby="validationServer04Feedback" name="status_mustahiq"
                                                     required>
                                                     <option value="menikah">menikah</option>

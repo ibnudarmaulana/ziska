@@ -55,15 +55,13 @@
                                             </div>
                                             <div class="col-md-6">
                                                 <label for="validationServer04" class="form-label">Jenis Kelamin</label>
-                                                <select class="form-select is-invalid" id="validationServer04"
+                                                <select class="form-select" id="validationServer04"
                                                     aria-describedby="validationServer04Feedback" name="jk_muzaki"
                                                     required>
                                                     <option value="laki-laki">laki-laki</option>
                                                     <option value="perempuan">perempuan</option>
                                                 </select>
-                                                <div id="validationServer04Feedback" class="invalid-feedback">
-                                                    Mohon ketik jenis kelamin
-                                                </div>
+                    
                                             </div>
                                             <div class="col-md-6">
                                                 <label for="validationCustom03" class="form-label">No telp</label>

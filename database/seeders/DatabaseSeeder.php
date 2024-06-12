@@ -20,5 +20,10 @@ class DatabaseSeeder extends Seeder
             'username' => 'admin',
             'password' => 'rahasia'
         ]);
+        \App\Models\User::create([
+            'role' => 'upz',
+            'username' => 'upz',
+            'password' => 'rahasia'
+        ]);
     }
 }

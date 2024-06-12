@@ -15,7 +15,7 @@
     Swal.fire({
         title: 'success',
         text: '{{ session('success') }}',
-        icon: 'error',
+        icon: 'success',
         confirmButtonText: 'OK'
     });
 </script>

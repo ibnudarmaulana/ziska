@@ -12,6 +12,7 @@ return new class extends Migration {
     {
         Schema::create('data_mustahiq', function (Blueprint $table) {
             $table->increments('mustahiq_id');
+            $table->integer('nik')->nullable();
             $table->string('nama_mustahiq', 50);
             $table->string('alamat_mustahiq', 50);
             $table->enum('jk_mustahiq', ['laki-laki', 'perempuan']);
