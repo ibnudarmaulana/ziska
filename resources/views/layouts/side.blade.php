@@ -63,7 +63,7 @@
             <ul id="forms-nav" class="nav-content {{ Request::is('admin/kelola-upz','admin/kelola-muzaki','admin/kelola-mustahiq','admin/kelola-pemasukan','admin/kelola-distribusi') ? '' : 'collapse' }}" data-bs-parent="#sidebar-nav">
                 <li>
                     <a class="{{ Request::is('admin/kelola-upz') ? 'active' : '' }}" href="{{url('admin/kelola-upz')}}">
-                        <span>Kelola Pengguna</span>
+                        <span>Kelola Data UPZ</span>
                     </a>
                 </li>
                 <li>
